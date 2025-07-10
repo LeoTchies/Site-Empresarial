@@ -1,0 +1,233 @@
+html {
+  font-family: "Lora", serif;
+  background-color: #7B4019
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+ }
+
+.card {
+    background-color: #FFBF78;
+    text-align: center;
+    width: 440px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    left: 15%; 
+    border: 2px #FFEEA9 solid
+}
+
+
+.card-title {
+  text-align: center;
+}
+
+.home-left {
+  float: left;
+  width: 150px;
+  margin: 15px 10px 0px 10px;
+  border-radius: 5px;
+  border: 2px #FFEEA9 solid
+}
+
+.home-right {
+  float: left;
+  width: 150px;
+  margin: 15px 10px 0px 10px;
+  border-radius: 5px;
+  border: 2px #FFEEA9 solid
+}
+
+.logo {
+  width: 100px;
+  float: left;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+.Titulo {
+  font-size: 3rem;
+  text-align: center;
+  color: #7B4019;
+  background-color: #FFBF78;
+  border: 2px #FFEEA9 solid
+}
+
+.menu-item {
+  font-size: 1rem;
+  color: #7B4019;
+  background-color: #FFBF78;
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin: 1%;
+  border: 2px #FFEEA9 solid
+}
+
+.menu-item:hover {
+  background-color: #E6A860;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-flutuante {
+   text-align: center
+}
+
+.institucional {
+  float: right;
+  width: 400px;
+  border-radius: 5%;
+  margin: 1%;
+  border: 2px #FFEEA9 solid
+}
+
+.fundo {
+  background-color: #FFBF78;
+  padding: 1%;
+  border: 2px #FFEEA9 solid
+}
+
+p .fundo {
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1.25cm;
+}
+
+.texto-pronto {
+  background-color: #FFBF78;
+}
+
+.novidade{
+  float: left; 
+  border-radius: 5%;
+  width: 200px;
+  margin: 10px;
+  border: 2px #FFEEA9 solid
+}
+
+.site {
+  font-size: 1rem;
+  color: #7B4019;
+  background-color: #FFBF78;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-left: 6%;
+  border: 2px #FFEEA9 solid
+}
+
+.fale-conosco{
+    text-align: center;
+    width: 440px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    left: 30%; 
+}
+
+.contato {
+  font-size: 2rem;
+  color: #7B4019;
+  background-color: #FFBF78;
+  width: 195px;
+  height: 60px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin: 1%;
+  border: 2px #FFEEA9 solid;
+}
+
+.contato:hover {
+  background-color: #E6A860;
+}
+
+.contato a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a .contato:hover
+{background-color: #E6A860}
+
+.contato-dois {
+background-color: #FFBF78;
+width: 410px;
+height: 200px;
+display: inline-block;
+border: 2px #FFEEA9 solid;
+text-align: center;
+}
+
+.Whatsapp {
+width: 150px;
+height: auto;
+}
+
+footer {
+  color: #FFEEA9;
+  font-size: 0.5rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width: 319px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  .menu-item {
+width: 100%;
+display: inline-block;
+  }
+}
