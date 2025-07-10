@@ -191,6 +191,8 @@ text-align: center;
 .Whatsapp {
 width: 150px;
 height: auto;
+position: relative;
+top: 20px;
 }
 
 footer {
