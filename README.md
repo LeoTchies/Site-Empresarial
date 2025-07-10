@@ -1,0 +1,2 @@
+# The Nature Voice
+Site criado a partir de HTML e CSS, sendo que no CSS não foram utilizados apenas os elementos de Media Queries, para gerar uma adaptação a telas menores, sem utilizar nenhum tipo de Flex, Grid ou Boorstrap significantes. O objetivo é criar um primeiro projeto detalhado, para teste de habilidades e demonstração de capacidades de adaptação à situações que não foram pensadas no inicio do projeto inicial. Sendo que tinha como objetivo ser apenas uma primeira página simples, demonstrativa.
