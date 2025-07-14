@@ -27,40 +27,6 @@ body {
   border: 2px #FFEEA9 solid;
 }
 
-.card {
-    background-color: #FFBF78;
-    text-align: center;
-    width: 440px;
-    height: 250px;
-    margin: 5px;
-    border-radius: 4px;
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    left: 15%; 
-    border: 2px #FFEEA9 solid
-}
-
-
-.card-title {
-  text-align: center;
-}
-
-.home-left {
-  float: left;
-  width: 150px;
-  margin: 15px 10px 0px 10px;
-  border-radius: 5px;
-  border: 2px #FFEEA9 solid
-}
-
-.home-right {
-  float: left;
-  width: 150px;
-  margin: 15px 10px 0px 10px;
-  border-radius: 5px;
-  border: 2px #FFEEA9 solid
-}
 
 .menu-item {
   font-size: 1rem;
@@ -89,14 +55,6 @@ body {
 
 .menu-flutuante {
    text-align: center
-}
-
-.institucional {
-  float: right;
-  width: 25%;
-  border-radius: 5%;
-  margin: 1%;
-  border: 2px #FFEEA9 solid
 }
 
 .fundo {
