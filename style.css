@@ -11,6 +11,22 @@ body {
     min-height: 95vh;
  }
 
+ .logo {
+  width: 100px;
+  float: left;
+  position: relative;
+  bottom: 15px;
+  left: 10px;
+}
+
+.Titulo {
+  font-size: 3rem;
+  text-align: center;
+  color: #7B4019;
+  background-color: #FFBF78;
+  border: 2px #FFEEA9 solid
+}
+
 .card {
     background-color: #FFBF78;
     text-align: center;
@@ -46,21 +62,7 @@ body {
   border: 2px #FFEEA9 solid
 }
 
-.logo {
-  width: 100px;
-  float: left;
-  position: relative;
-  top: 15px;
-  left: 10px;
-}
 
-.Titulo {
-  font-size: 3rem;
-  text-align: center;
-  color: #7B4019;
-  background-color: #FFBF78;
-  border: 2px #FFEEA9 solid
-}
 
 .menu-item {
   font-size: 1rem;
