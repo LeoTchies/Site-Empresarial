@@ -24,7 +24,7 @@ body {
   text-align: center;
   color: #7B4019;
   background-color: #FFBF78;
-  border: 2px #FFEEA9 solid
+  border: 2px #FFEEA9 solid;
 }
 
 .card {
@@ -61,8 +61,6 @@ body {
   border-radius: 5px;
   border: 2px #FFEEA9 solid
 }
-
-
 
 .menu-item {
   font-size: 1rem;
@@ -143,15 +141,7 @@ footer p {
 }
 
 @media (max-width: 319px) {
-  .logo {
-    width: 100px;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-
+ 
   .card {
     width: 100%;
     display: block;
@@ -167,7 +157,7 @@ footer p {
   }
 
   .menu-item {
-width: 100%;
-display: inline-block;
+  width: 100%;
+  display: inline-block;
   }
 }

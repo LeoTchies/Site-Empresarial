@@ -12,8 +12,45 @@
   <style>
 
   .container{
+  text-align: center;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  gap: 10px
+  }
+
+  .quadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #FFBF78;
+    border: 2px #FFEEA9 solid;
+    border-radius: 5px;
+    padding: 1%;
     
   }
+
+  .quadro button {
+  align-self:center;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;}
+
+
+  button{
+    text-align: end ;
+    border: 2px #FFEEA9 solid;
+   }
+
+
+    @media screen (max-width: 319px) { .container{
+      display: flex;
+      flex-direction: column;
+    }
+    }
 
   </style>
 
@@ -37,21 +74,41 @@
     </header>
 
     <div class="container">
-      <div></div>
+      <div class="vegan quadro">
+        <h1> Curso de Culinária Vegana Nível 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent est ligula, blandit nec sapien a, finibus efficitur dui. Morbi sit amet dictum ex, eu ultricies enim.</p>
+        <button> Acessar Curso</button>
+      </div>
 
-      <div></div>
+      <div class="ecológica quadro">
+        <h1>Curso de Construção Ecológica</h1>
+        <p>Vestibulum eu odio mauris. In aliquam risus quis neque gravida viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button> Acessar Curso</button>
+      </div>
 
-      <div></div>
+      <div class="reciclagem quadro">
+        <h1>Curso de Reciclagem no Cotidiano</h1>
+        <p>Morbi posuere ex vel convallis luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+        <button> Acessar Curso</button>
+      </div>
 
-      <div></div>
+      <div class="agrofloresta quadro">
+        <h1>Curso de Sistemas Agroflorestais</h1>
+        <p>Duis cursus semper malesuada.Duis cursus semper malesuada.Duis cursus semper malesuada.</p>
+        <button> Acessar Curso</button>
+      </div>
 
-      <div></div>
+      <div class="consciencia quadro">
+        <h1>Curso de Consciência Ambiental</h1>
+        <p>Nam bibendum tortor et consequat ullamcorper. Vestibulum non dolor id sapien eleifend hendrerit nec eu ante. Morbi quis quam malesuada, ultrices enim nec, volutpat diam.</p>
+        <button> Acessar Curso</button>
+      </div>
 
 
 
     </div>
 
-
+<br>
 
       <footer>
       <p> © Copyright. All rights reserved Leonardo Chies </p>
